@@ -10,13 +10,15 @@ CREATE: This command is used to create the database or its objects (like table, 
 # 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 SQL QUERY:
  create table student(rollno int,name char(20),age int,address varchar(20),phoneno int);
-OUTPUT:
+ 
+ OUTPUT:
 ![image](https://github.com/kancharlaNarmadha/G2_DBMS/assets/119559316/30a46a53-7411-4c2b-9e8e-f0d5560a9814)
 
 
 # 2) Change the above student table by adding another attribute department
 SQL QUERY:
 alter table student add department char(30);
+
 OUTPUT:
 ![image](https://github.com/kancharlaNarmadha/G2_DBMS/assets/119559316/bc2d96ac-3a8a-413d-a462-ea0bc4a081e6)
 
@@ -24,6 +26,7 @@ OUTPUT:
 # 3) Drop the student table
 SQL QUERY:
 drop table student;
+
 OUTPUT:
 ![image](https://github.com/kancharlaNarmadha/G2_DBMS/assets/119559316/d08c2635-bbe2-444f-a062-be2a639e519c)
 
@@ -31,6 +34,7 @@ OUTPUT:
 # 4) Delete the student table using truncate keyword
 SQL QUERY:
 truncate table student;
+
 OUTPUT:
 ![image](https://github.com/kancharlaNarmadha/G2_DBMS/assets/119559316/ff2ecbe2-67a6-49d1-9126-918ef7e529a5)
 
@@ -38,6 +42,7 @@ OUTPUT:
 # 5) Rename the student table to mystudent
 SQL QUERY:
 alter table student rename to mystudent;
+
 OUTPUT:
 ![image](https://github.com/kancharlaNarmadha/G2_DBMS/assets/119559316/4ac58148-044b-4790-8763-4f5930cf53ad)
 
